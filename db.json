@@ -1,0 +1,115 @@
+{
+  "palavras": [
+    "andromeda",
+    "betelgeuse",
+    "buraconegro",
+    "cassiopeia",
+    "centauri",
+    "cosmos",
+    "cinturaodeasteroides",
+    "deneb",
+    "estreladamorte",
+    "eclipse",
+    "epsiloneridani",
+    "fobos",
+    "galaxiadeandromeda",
+    "guardioesdagalaxia",
+    "hubble",
+    "interestelar",
+    "io",
+    "jupiter",
+    "kesselrun",
+    "lua",
+    "marte",
+    "meteoro",
+    "nebulosa",
+    "netuno",
+    "orion",
+    "pandora",
+    "planetadosmacacos",
+    "plutao",
+    "armageddon",
+    "saturno",
+    "sistemasolar",
+    "solaris",
+    "supernova",
+    "tatooine",
+    "tresluas",
+    "ursaemajoris",
+    "venus",
+    "vialactea",
+    "WarpDrive",
+    "xwing",
+    "starwars",
+    "zathura",
+    "einstein"
+  ],
+  "jogadores": [
+    {
+      "id": 1,
+      "nome": "João",
+      "sobrenome": "Silva",
+      "genero": "Masculino"
+    },
+    {
+      "id": 2,
+      "nome": "Maria",
+      "sobrenome": "Santos",
+      "genero": "Feminino"
+    },
+    {
+      "id": 3,
+      "nome": "Pedro",
+      "sobrenome": "Ferreira",
+      "genero": "Masculino"
+    },
+    {
+      "nome": "Alexandre",
+      "sobrenome": "Nazareth",
+      "genero": "masculino",
+      "id": 4
+    },
+    {
+      "nome": "Alexandre",
+      "sobrenome": "nazareth",
+      "genero": "masculino",
+      "id": 5
+    },
+    {
+      "nome": "Jonny",
+      "sobrenome": "Kusack",
+      "genero": "masculino",
+      "id": 6
+    }
+  ],
+  "palavraSorteada": [
+    {
+      "palavra_sorteada": "sistemasolar",
+      "id": 1
+    },
+    {
+      "palavra_sorteada": "lua",
+      "id": 2
+    },
+    {
+      "palavra_sorteada": "supernova",
+      "id": 3
+    },
+    {
+      "palavra_sorteada": "buraconegro",
+      "id": 4
+    },
+    {
+      "palavra_sorteada": "interestelar",
+      "id": 5
+    },
+    {
+      "palavra_sorteada": "kesselrun",
+      "id": 6
+    },
+    {
+      "palavra_sorteada": "tresluas",
+      "id": 7
+    }
+  ]
+}

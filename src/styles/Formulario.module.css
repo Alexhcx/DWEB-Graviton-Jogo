@@ -1,0 +1,40 @@
+.formulario{
+
+    font-family: 'Nasalization Rg', sans-serif;
+    font-size: 1.1rem;
+    color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.921);
+    border: 5px solid whitesmoke;
+    border-radius: 20px;
+    padding: 1rem 1rem 0.5rem 1rem;
+}
+
+.botaoJogador{
+
+    font-family: 'Nasalization Rg', sans-serif;
+    font-size: 0.8rem;
+    justify-content: center;
+    color: whitesmoke;
+    background-color: black;
+    border-radius: 90px;
+    padding: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -200%);
+
+}
+
+@media (max-width: 768px) {
+    .botaoJogador{
+
+        transform: translate(-50%, -155%);
+
+    }
+}

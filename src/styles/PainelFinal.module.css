@@ -1,0 +1,50 @@
+.painelFinal{
+
+    color: whitesmoke;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.911);
+    font-family: 'Nasalization Rg', sans-serif;
+    pad: 0.8rem;
+    border: 0.5rem solid rgba(255, 255, 255, 0.767);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+h2 {
+
+    padding: 0.8rem;
+
+}
+
+li {
+
+    padding: 0.5rem;
+
+}
+
+.msgFinal{
+
+    z-index: 1;
+    font-family: 'Nasalization Rg', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    color: whitesmoke;
+
+}
+
+@media (max-width: 768px) {
+    .painelFinal {
+        font-size: 0.8rem;
+        width: 80%; 
+        min-width: initial;
+    }
+
+    .msgFinal{
+
+        font-size: 1rem;
+
+    }    
+}

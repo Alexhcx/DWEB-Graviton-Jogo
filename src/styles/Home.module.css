@@ -1,0 +1,58 @@
+.tituloPrincipal{
+
+    font-family: 'Nasalization Rg', sans-serif;
+    font-size: 9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    transform: translateY(5rem);
+
+}
+
+.botaoPrincipal{
+
+    display: flex;
+    font-family: 'Nasalization Rg', sans-serif;
+    font-size: 1.5rem;
+    justify-content: center;
+    color: whitesmoke;
+    background-color: black;
+    border-radius: 90px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.botaoJogo{
+
+    display: flex;
+    font-family: 'Nasalization Rg', sans-serif;
+    font-size: 1.5rem;
+    justify-content: center;
+    color: whitesmoke;
+    background-color: black;
+    border-radius: 90px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 330%);
+
+}
+
+
+@media (max-width: 768px) {
+    .tituloPrincipal {
+        font-size: 5rem;   
+    }
+
+    .botaoJogo{
+
+        transform: translate(-50%, 500%);
+
+    }
+}

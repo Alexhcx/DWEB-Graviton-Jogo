@@ -1,0 +1,19 @@
+.palavraPalpite{
+    display: flex;
+    gap: .25em;
+    font-size: 5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Nasalization Rg', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 40%);
+}
+
+@media (max-width: 768px) {
+    .palavraPalpite {
+        font-size: 2.5rem;
+        transform: translate(-50%, 200%);
+    }
+  }
