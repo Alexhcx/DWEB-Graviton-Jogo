@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import styles from '../styles/Formulario.module.css'
 import { adicionarJogador } from '../jsonServerActions';
 
+//Componente React chamado Formulario escrito em TypeScript usado para criar um formulário que permite ao usuário inserir informações sobre um jogador.
+
 const Formulario: React.FC = () => {
   const [nome, setNome] = useState('');
   const [sobrenome, setSobrenome] = useState('');

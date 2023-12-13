@@ -5,6 +5,8 @@ import { Keyboard } from "../components/Teclado";
 import Painel from "../components/PainelFinal";
 import style from "../styles/PainelFinal.module.css"
 
+//omponente React chamado Jogo, escrito em TypeScript. usado para criar um jogo de adivinhação de palavras.
+
 interface JogoProps {
   palavraParaAdivinhar: string;
 }
@@ -16,6 +18,7 @@ export function Jogo({ palavraParaAdivinhar }: JogoProps) {
   const letrasIncorretas = letrasAdivinhadas.filter(
     (letra) => !palavraParaAdivinhar.includes(letra)
   );
+
   const letrasAdivinhadasSet = new Set(letrasAdivinhadas);
 
   const foiPerdedor = letrasIncorretas.length >= 6;

@@ -1,3 +1,6 @@
+
+//Este é um módulo TypeScript que exporta três funções para interagir com um servidor.
+
 export function fetchPalavraServidor() {
     return fetch("http://localhost:8080/palavras")
       .then((response) => {

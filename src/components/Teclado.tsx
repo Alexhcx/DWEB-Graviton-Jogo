@@ -1,5 +1,7 @@
 import styles from "../styles/Teclado.module.css"
 
+//Componente React chamado Keyboard, escrito em TypeScript usado para renderizar um teclado virtual com letras de 'a' a 'z' (incluindo 'ç').
+
 const TECLAS = [
   "a",
   "b",

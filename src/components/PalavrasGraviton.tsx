@@ -1,5 +1,7 @@
 import styles from '../styles/PalavraGraviton.module.css'
 
+//Componente React HangmanWord usado para exibir uma palavra no jogo da forca
+
 type HangmanWordProps = {
   letrasAdivinhadas: string[]
   palavraParaAdivinhar: string
@@ -24,7 +26,7 @@ export function HangmanWord({
                   ? "visible"
                   : "hidden",
               color:
-                !letrasAdivinhadas.includes(letra) && revelar ? "red" : "hsl(200, 100%, 50%)",
+                !letrasAdivinhadas.includes(letra) && revelar ? "red" : "hsl(200, 100%, 50%)"
             }}
           >
             {letra}

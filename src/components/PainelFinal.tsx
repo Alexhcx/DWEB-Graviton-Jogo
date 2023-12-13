@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
 import style from '../styles/PainelFinal.module.css'
 
+// Componente React que exibe os últimos três jogadores e as últimas três palavras sorteadas de um jogo.
+
 interface jogador {
   nome: string;
   sobrenome: string;
@@ -8,7 +10,7 @@ interface jogador {
 }
 
 function PainelDoJogo() {
-  const [ jogadores, setjogadores] = useState<jogador[]>([]);
+  const [jogadores, setjogadores] = useState<jogador[]>([]);
   const [Palavras, setPalavras] = useState<string[]>([]);
 
   useEffect(() => {
@@ -47,7 +49,7 @@ function PainelDoJogo() {
     <div className={style.painelFinal}>
       <h2>Últimos 3 Jogadores:</h2>
       <ul>
-        {jogadores.map((jogador, index) => (
+        {jogadores.slice().reverse().map((jogador, index) => (
           <li key={index}>
             Nome: {jogador.nome} <br></br>
             Sobrenome: {jogador.sobrenome} <br></br>
@@ -58,7 +60,7 @@ function PainelDoJogo() {
 
       <h2>Últimas 3 Palavras Sorteadas:</h2>
       <ul>
-        {Palavras.map((word, index) => (
+        {Palavras.slice().reverse().map((word, index) => (
           <li key={index}>{word}</li>
         ))}
       </ul>

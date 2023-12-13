@@ -1,6 +1,9 @@
 import astronauta1 from '../assets/img/AstronautaEditado.png';
 import explosao from '../assets/img/Explosion.png'
 
+//componente React escrito em TypeScript que exibe imagens de um astronauta
+//e uma explosão em diferentes posições e tamanhos, dependendo do número de palpites fornecidos.
+
 const ASTRO1 = (
   <img
     src={astronauta1}
