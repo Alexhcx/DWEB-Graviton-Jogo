@@ -1,5 +1,14 @@
-.painelFinal{
+.secaoPalavraAstroTeclado{
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.painelFinal{
+    display: flex;
+    flex-direction: column;
     color: whitesmoke;
     z-index: 1;
     background-color: rgba(0, 0, 0, 0.911);
@@ -7,9 +16,9 @@
     pad: 0.8rem;
     border: 0.5rem solid rgba(255, 255, 255, 0.767);
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 35%;
+    left: 80%;
+    width: 15%;
 
 }
 
@@ -20,31 +29,96 @@ h2 {
 }
 
 li {
+    list-style-type: none;
+    position: relative; 
+    padding-left: 1.5em; 
+    margin: 1.1rem;
+}
 
-    padding: 0.5rem;
+ul {
+    list-style-position: inside;
+}
 
+li::marker{
+        color: whitesmoke;
+        font-size: 1.5rem;
+        font-family: 'Nasalization Rg', sans-serif;
+        font-weight: bold;
+        text-shadow: 0.1rem 0.1rem 0.1rem black;
+}
+
+li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: whitesmoke;
+    font-size: 1.0rem;
+    font-family: 'Nasalization Rg', sans-serif;
+    font-weight: bold;
+    text-shadow: 0.1rem 0.1rem 0.1rem black;
 }
 
 .msgFinal{
-
-    z-index: 1;
     font-family: 'Nasalization Rg', sans-serif;
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
     color: whitesmoke;
-
+    z-index: 1;
+    position: absolute;
+    top: 8%;
+    left: 30%;
 }
 
-@media (max-width: 768px) {
-    .painelFinal {
-        font-size: 0.8rem;
-        width: 80%; 
-        min-width: initial;
+@media screen and (max-width: 1440px) {
+    .msgFinal{
+        font-size: 2rem;
+        left: 35%;
+        top: 5%;
+
     }
 
+    .painelFinal{
+     
+        top: 20%;
+        left: 83%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
     .msgFinal{
+        left: 28%;
+    }
 
+    .painelFinal{
+     
+        top: 18%;
+        left: 74%;
+        width: 22%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .msgFinal{
+        left: 19%;
+    }
+
+    .painelFinal{
+        top: 13%;
+        left: 74%;
+        width: 22%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .msgFinal{
+        left: 15%;
+        font-size: 1.5rem;
+    }
+
+    .painelFinal{
+        top: 13%;
+        left: 30%;
+        width: 50%;
         font-size: 1rem;
-
-    }    
+    }
 }

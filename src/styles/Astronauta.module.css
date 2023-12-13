@@ -1,0 +1,93 @@
+
+.astro1{
+    position: absolute;
+    align-items: center;
+    height: 275px;
+    transform: translate(-50%, -70%);
+
+}
+
+.astro2{
+    display: absolute;
+    align-items: center;
+    height: 245px;
+    transform: translate(0%, -30%);
+
+}
+
+.astro3{
+    display: absolute;
+    align-items: center;
+    height: 201px;
+    transform: translate(0%, -30%);
+    z-index: 1;
+}
+
+.astro4{
+    display: absolute;
+    align-items: center;
+    height: 161px;
+    transform: translate(0%, -30%);
+
+}
+
+.astro5{
+    display: absolute;
+    align-items: center;
+    height: 115px;
+    transform: translate(0%, -35%);
+
+}
+
+.astro6{
+    display: absolute;
+    align-items: center;
+    height: 70px;
+    transform: translate(0%, -55%);
+
+}
+
+.astro7{
+    display: absolute;
+    align-items: center;
+    height: 300px;
+    transform: translate(0%, -22%);
+
+}
+
+@media screen and (max-width: 1440px) {
+    .astro1{
+        height: 150px;
+        transform: translate(-50%, -90%);
+    }
+    
+    .astro2{
+        height: 120px;
+        transform: translate(0%, -50%);
+    }
+    
+    .astro3{
+        height: 86px;
+        transform: translate(0%, -60%);
+    }
+    
+    .astro4{
+        height: 66px;
+        transform: translate(0%, -75%);
+    }
+    
+    .astro5{
+        height: 45px;
+        transform: translate(0%, -95%);
+    }
+    
+    .astro6{
+        height: 35px;
+        transform: translate(0%, -100%);
+    }
+    
+    .astro7{
+        height: 175px;
+        transform: translate(0%, -30%);
+    }
+}

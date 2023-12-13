@@ -1,19 +1,61 @@
 .palavraPalpite{
     display: flex;
+    align-items: center;
     gap: .25em;
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: bold;
     text-transform: uppercase;
     font-family: 'Nasalization Rg', sans-serif;
+    padding: 1rem;
+    margin: 1rem;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 40%);
+    bottom: 32%;
 }
 
-@media (max-width: 768px) {
+.palavraPalpite span {
+    display: inline-block;
+    text-align: center;
+    border-bottom: .1em solid white;
+    width: 65px;
+}
+
+@media screen and (max-width: 425px) {
     .palavraPalpite {
         font-size: 2.5rem;
-        transform: translate(-50%, 200%);
+        bottom: 29%;
     }
-  }
+
+    .palavraPalpite span {
+        width: 45px;
+    }
+    
+}
+
+@media screen and (max-width: 375px) {
+    .palavraPalpite {
+        font-size: 2.5rem;
+        bottom: 27%;
+    }
+
+    .palavraPalpite span {
+        display: inline-block;
+        text-align: center;
+        border-bottom: .1em solid white;
+        width: 35px;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    .palavraPalpite {
+        font-size: 2rem;
+        bottom: 27%;
+    }
+
+    .palavraPalpite span {
+        display: inline-block;
+        text-align: center;
+        border-bottom: .1em solid white;
+        width: 25px;
+    }
+}
+

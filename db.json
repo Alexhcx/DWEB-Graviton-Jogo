@@ -6,14 +6,9 @@
     "cassiopeia",
     "centauri",
     "cosmos",
-    "cinturaodeasteroides",
     "deneb",
-    "estreladamorte",
     "eclipse",
-    "epsiloneridani",
     "fobos",
-    "galaxiadeandromeda",
-    "guardioesdagalaxia",
     "hubble",
     "interestelar",
     "io",
@@ -26,16 +21,13 @@
     "netuno",
     "orion",
     "pandora",
-    "planetadosmacacos",
     "plutao",
-    "armageddon",
+    "armaggeddon",
     "saturno",
-    "sistemasolar",
     "solaris",
     "supernova",
     "tatooine",
     "tresluas",
-    "ursaemajoris",
     "venus",
     "vialactea",
     "WarpDrive",
@@ -104,6 +96,186 @@
       "sobrenome": "Balboa",
       "genero": "masculino",
       "id": 10
+    },
+    {
+      "nome": "Alexandre",
+      "sobrenome": "Nazareth",
+      "genero": "masculino",
+      "id": 11
+    },
+    {
+      "nome": "Alexandre",
+      "sobrenome": "Nazareth",
+      "genero": "masculino",
+      "id": 12
+    },
+    {
+      "nome": "Alexandre",
+      "sobrenome": "Nazareth",
+      "genero": "masculino",
+      "id": 13
+    },
+    {
+      "nome": "Alexandre",
+      "sobrenome": "Nazareth",
+      "genero": "masculino",
+      "id": 14
+    },
+    {
+      "nome": "Hercules",
+      "sobrenome": "Maroto",
+      "genero": "masculino",
+      "id": 15
+    },
+    {
+      "nome": "Alexandre",
+      "sobrenome": "Nazareth",
+      "genero": "masculino",
+      "id": 16
+    },
+    {
+      "nome": "asdad",
+      "sobrenome": "asfasf",
+      "genero": "masculino",
+      "id": 17
+    },
+    {
+      "nome": "asdads",
+      "sobrenome": "afsasf",
+      "genero": "masculino",
+      "id": 18
+    },
+    {
+      "nome": "asdads",
+      "sobrenome": "afsasf",
+      "genero": "masculino",
+      "id": 19
+    },
+    {
+      "nome": "aASASD",
+      "sobrenome": "ASDAFaa",
+      "genero": "masculino",
+      "id": 20
+    },
+    {
+      "nome": "asdasf",
+      "sobrenome": "asfasf",
+      "genero": "masculino",
+      "id": 21
+    },
+    {
+      "nome": "asda",
+      "sobrenome": "asfas",
+      "genero": "masculino",
+      "id": 22
+    },
+    {
+      "nome": "sadasd",
+      "sobrenome": "asdasd",
+      "genero": "masculino",
+      "id": 23
+    },
+    {
+      "nome": "Alexandre",
+      "sobrenome": "nazareth",
+      "genero": "masculino",
+      "id": 24
+    },
+    {
+      "nome": "hahsdf",
+      "sobrenome": "asfasf",
+      "genero": "masculino",
+      "id": 25
+    },
+    {
+      "nome": "Alexandre",
+      "sobrenome": "nazareth",
+      "genero": "masculino",
+      "id": 26
+    },
+    {
+      "nome": "asd",
+      "sobrenome": "asda",
+      "genero": "",
+      "id": 27
+    },
+    {
+      "nome": "asd",
+      "sobrenome": "asda",
+      "genero": "masculino",
+      "id": 28
+    },
+    {
+      "nome": "Alexandre",
+      "sobrenome": "Nazareth",
+      "genero": "masculino",
+      "id": 29
+    },
+    {
+      "nome": "asdasd",
+      "sobrenome": "asdasd",
+      "genero": "masculino",
+      "id": 30
+    },
+    {
+      "nome": "aAS",
+      "sobrenome": "ASDASD",
+      "genero": "masculino",
+      "id": 31
+    },
+    {
+      "nome": "Alexandre",
+      "sobrenome": "Nazareth",
+      "genero": "masculino",
+      "id": 32
+    },
+    {
+      "nome": "Alexandre",
+      "sobrenome": "nazareth",
+      "genero": "masculino",
+      "id": 33
+    },
+    {
+      "nome": "asdasd",
+      "sobrenome": "asdasd",
+      "genero": "masculino",
+      "id": 34
+    },
+    {
+      "nome": "Alexandre",
+      "sobrenome": "Nazareth",
+      "genero": "masculino",
+      "id": 35
+    },
+    {
+      "nome": "",
+      "sobrenome": "",
+      "genero": "",
+      "id": 36
+    },
+    {
+      "nome": "Alexandre",
+      "sobrenome": "nazareth",
+      "genero": "masculino",
+      "id": 37
+    },
+    {
+      "nome": "Alexandre",
+      "sobrenome": "Nazareth",
+      "genero": "masculino",
+      "id": 38
+    },
+    {
+      "nome": "",
+      "sobrenome": "",
+      "genero": "",
+      "id": 39
+    },
+    {
+      "nome": "Alexandre",
+      "sobrenome": "nazareth",
+      "genero": "masculino",
+      "id": 40
     }
   ],
   "palavraSorteada": [
@@ -150,6 +322,126 @@
     {
       "palavra_sorteada": "cosmos",
       "id": 11
+    },
+    {
+      "palavra_sorteada": "WarpDrive",
+      "id": 12
+    },
+    {
+      "palavra_sorteada": "lua",
+      "id": 13
+    },
+    {
+      "palavra_sorteada": "netuno",
+      "id": 14
+    },
+    {
+      "palavra_sorteada": "armageddon",
+      "id": 15
+    },
+    {
+      "palavra_sorteada": "cinturaodeasteroides",
+      "id": 16
+    },
+    {
+      "palavra_sorteada": "cassiopeia",
+      "id": 17
+    },
+    {
+      "palavra_sorteada": "zathura",
+      "id": 18
+    },
+    {
+      "palavra_sorteada": "lua",
+      "id": 19
+    },
+    {
+      "palavra_sorteada": "centauri",
+      "id": 20
+    },
+    {
+      "palavra_sorteada": "armageddon",
+      "id": 21
+    },
+    {
+      "palavra_sorteada": "tresluas",
+      "id": 22
+    },
+    {
+      "palavra_sorteada": "meteoro",
+      "id": 23
+    },
+    {
+      "palavra_sorteada": "nebulosa",
+      "id": 24
+    },
+    {
+      "palavra_sorteada": "tatooine",
+      "id": 25
+    },
+    {
+      "palavra_sorteada": "estreladamorte",
+      "id": 26
+    },
+    {
+      "palavra_sorteada": "marte",
+      "id": 27
+    },
+    {
+      "palavra_sorteada": "plutao",
+      "id": 28
+    },
+    {
+      "palavra_sorteada": "galaxiadeandromeda",
+      "id": 29
+    },
+    {
+      "palavra_sorteada": "xwing",
+      "id": 30
+    },
+    {
+      "palavra_sorteada": "jupiter",
+      "id": 31
+    },
+    {
+      "palavra_sorteada": "centauri",
+      "id": 32
+    },
+    {
+      "palavra_sorteada": "WarpDrive",
+      "id": 33
+    },
+    {
+      "palavra_sorteada": "epsiloneridani",
+      "id": 34
+    },
+    {
+      "palavra_sorteada": "armageddon",
+      "id": 35
+    },
+    {
+      "palavra_sorteada": "plutao",
+      "id": 36
+    },
+    {
+      "palavra_sorteada": "venus",
+      "id": 37
+    },
+    {
+      "palavra_sorteada": "galaxiadeandromeda",
+      "id": 38
+    },
+    {
+      "palavra_sorteada": "WarpDrive",
+      "id": 39
+    },
+    {
+      "palavra_sorteada": "sistemasolar",
+      "id": 40
+    },
+    {
+      "palavra_sorteada": "centauri",
+      "id": 41
     }
   ]
 }

@@ -1,58 +1,76 @@
-.tituloPrincipal{
 
-    font-family: 'Nasalization Rg', sans-serif;
-    font-size: 9rem;
+
+.divHome{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    
+}
+
+.tituloPrincipal{
+    display: flex;
+    font-family: 'Nasalization Rg', sans-serif;
+    font-size: 20rem;
     align-items: center;
     justify-content: center;
     color: whitesmoke;
-    transform: translateY(5rem);
-
+    padding: 1rem;
+    margin: 1rem;
 }
 
 .botaoPrincipal{
-
     display: flex;
     font-family: 'Nasalization Rg', sans-serif;
     font-size: 1.5rem;
+    align-items: center;
     justify-content: center;
     color: whitesmoke;
     background-color: black;
     border-radius: 90px;
-    padding: 10px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 4rem;
 }
 
 .botaoJogo{
-
     display: flex;
     font-family: 'Nasalization Rg', sans-serif;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
+    align-items: center;
     justify-content: center;
     color: whitesmoke;
     background-color: black;
     border-radius: 90px;
-    padding: 10px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 330%);
+    padding: 1rem;
+    margin: 1rem 10rem 1rem 10rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .tituloPrincipal {
+        font-size: 10rem;   
+    }
+    .botaoPrincipal{
+        font-size: 3rem;
+
+    }
 
 }
 
-
-@media (max-width: 768px) {
+@media screen and (max-width: 425px) {
     .tituloPrincipal {
-        font-size: 5rem;   
+        font-size: 4rem;   
     }
 
-    .botaoJogo{
+    .botaoPrincipal{
+        font-size: 1.5rem;
+    }
 
-        transform: translate(-50%, 500%);
+}
 
+@media screen and (max-width: 320px) {
+    .tituloPrincipal {
+        font-size: 5rem;   
     }
 }

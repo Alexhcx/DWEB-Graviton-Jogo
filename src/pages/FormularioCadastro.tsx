@@ -66,8 +66,6 @@ const Formulario: React.FC = () => {
         <button className={styles.botaoJogador} type="submit">Adicionar Jogador</button>
       </form>
       <div>
-        <br />
-        <br />
         <h3>Informações do Jogador:</h3>
         <p>Nome: {nome}</p>
         <p>Sobrenome: {sobrenome}</p>

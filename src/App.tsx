@@ -2,10 +2,13 @@ import { useState } from 'react';
 import BackgroundVideo from './components/BackgroundVideo';
 import PaginaInicial from './pages/Home';
 import Jogo from './pages/Jogo';
-import botao from './styles/Home.module.css'
 import PalavraAdivinhar from './components/palavraParaAdivinhar';
 import Formulario from './pages/FormularioCadastro';
 import { adicionarPalavraSorteada } from "./jsonServerActions";
+
+import HomeStyle from './styles/Home.module.css'
+import FormularioStyle from './styles/Formulario.module.css'
+import './styles/global.css';
 
 function App() {
   const [palavraParaAdivinhar, setPalavraParaAdivinhar] = useState("");
@@ -18,32 +21,36 @@ function App() {
     setFormulario(false);
     adicionarPalavraSorteada(palavraParaAdivinhar);
   };
-  
+
   const handleClickFormulario = () => {
     console.log("Clicou em Iniciar cadastro");
     setFormulario(true);
   };
 
-
-
   return (
-    <div>
-      <BackgroundVideo />
-      {formulario ? (
+    <>
+      <div>
+        <BackgroundVideo />
+      </div>
+      <main className='container'>
         <div>
-          <Formulario />
-          <button className={botao.botaoJogo} onClick={handleClickIniciarJogo}>Iniciar jogo</button>
+          {formulario ? (
+            <div>
+              <Formulario />
+              <button className={FormularioStyle.botaoIniciaJogo} onClick={handleClickIniciarJogo}>Iniciar jogo</button>
+            </div>
+          ) : mostrarJogo ? (
+            <Jogo palavraParaAdivinhar={palavraParaAdivinhar} />
+          ) : (
+            <div className={HomeStyle.divHome}>
+              <PaginaInicial />
+              <PalavraAdivinhar setPalavraParaAdivinhar={setPalavraParaAdivinhar} />
+              <button className={HomeStyle.botaoPrincipal} onClick={handleClickFormulario}>Iniciar cadastro</button>
+            </div>
+          )}
         </div>
-      ) : mostrarJogo ? (
-        <Jogo palavraParaAdivinhar={palavraParaAdivinhar}/>
-      ) : (
-        <div>
-          <PaginaInicial />
-          <PalavraAdivinhar setPalavraParaAdivinhar={setPalavraParaAdivinhar} />
-          <button className={botao.botaoPrincipal} onClick={handleClickFormulario}>Iniciar cadastro</button>
-        </div>
-      )}
-    </div>
+      </main>
+    </>
   );
 }
 

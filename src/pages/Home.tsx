@@ -3,9 +3,9 @@ import styles from '../styles/Home.module.css';
 
 const HomePage: React.FC = () => {  
   return (
-    <div className={styles.tituloPrincipal}>
+    <span className={styles.tituloPrincipal}>
      Graviton
-    </div>
+    </span>
   );
 };
 

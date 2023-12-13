@@ -1,7 +1,7 @@
 import { useCallback, useState } from "react";
-import { HangmanDrawing } from "../components/AnimacaoAstronauta";
-import { HangmanWord } from "../components/PalavrasGraviton";
-import { Keyboard } from "../components/Teclado";
+import { Astronauta } from "../components/AnimacaoAstronauta";
+import { Palavra } from "../components/PalavrasGraviton";
+import { Teclado } from "../components/Teclado";
 import Painel from "../components/PainelFinal";
 import style from "../styles/PainelFinal.module.css"
 
@@ -33,41 +33,33 @@ export function Jogo({ palavraParaAdivinhar }: JogoProps) {
   );
 
   return (
-  <div>
-    <div
-      style={{
-        maxWidth: "800px",
-        display: "flex",
-        flexDirection: "column",
-        gap: "2rem",
-        margin: "0 auto",
-        alignItems: "center",
-      }}
-    >
-      <div className={style.msgFinal}>
-      {foiVencedor && "Você Ganhou! Atualize para jogar de novo"}
-      {foiPerdedor && "Você perdeu! Atualize para jogar de novo"}
-      
-      </div>
-      <HangmanDrawing qtdPalpites={letrasIncorretas.length} />
-      <HangmanWord
-        revelar={foiPerdedor}
-        letrasAdivinhadas={letrasAdivinhadas}
-        palavraParaAdivinhar={palavraParaAdivinhar}
-      />
-      <div style={{ alignSelf: "stretch" }}>
-        <Keyboard
-          disabled={ foiVencedor || foiPerdedor}
-          letrasAtivadas={letrasAdivinhadas.filter((letra) =>
-            palavraParaAdivinhar.includes(letra)
-          )}
-          letrasInativas={letrasIncorretas}
-          addPalpiteDeLetras={addPalpiteDeLetras}
+    <div>
+      <div>
+        <div className={style.msgFinal}>
+          {foiVencedor && "Você Ganhou! Aperte F5 para jogar de novo."}
+          {foiPerdedor && "Você perdeu! Aperte F5 para jogar de novo."}
+        </div>
+      <section className={style.secaoPalavraAstroTeclado}>
+        <Astronauta qtdPalpites={letrasIncorretas.length} />
+        <Palavra
+          revelar={foiPerdedor}
+          letrasAdivinhadas={letrasAdivinhadas}
+          palavraParaAdivinhar={palavraParaAdivinhar}
         />
+      </section>  
+        <div>
+          <Teclado
+            disabled={foiVencedor || foiPerdedor}
+            letrasAtivadas={letrasAdivinhadas.filter((letra) =>
+              palavraParaAdivinhar.includes(letra)
+            )}
+            letrasInativas={letrasIncorretas}
+            addPalpiteDeLetras={addPalpiteDeLetras}
+          />
+        </div>
+        {foiVencedor || foiPerdedor ? <Painel /> : null}
       </div>
-      {foiVencedor || foiPerdedor ? <Painel /> : null}
     </div>
-  </div>
   );
 }
 

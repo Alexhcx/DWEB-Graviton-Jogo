@@ -1,6 +1,6 @@
 import styles from "../styles/Teclado.module.css"
 
-//Componente React chamado Keyboard, escrito em TypeScript usado para renderizar um teclado virtual com letras de 'a' a 'z' (incluindo 'ç').
+//Componente React chamado Teclado, escrito em TypeScript usado para renderizar um teclado virtual com letras de 'a' a 'z' (incluindo 'ç').
 
 const TECLAS = [
   "a",
@@ -32,21 +32,21 @@ const TECLAS = [
   "z",
 ]
 
-type KeyboardProps = {
+type TecladoProps = {
   disabled?: boolean
   letrasAtivadas: string[]
   letrasInativas: string[]
   addPalpiteDeLetras: (letra: string) => void
 }
 
-export function Keyboard({
+export function Teclado({
   letrasAtivadas,
   letrasInativas,
   addPalpiteDeLetras,
   disabled = false,
-}: KeyboardProps) {
+}: TecladoProps) {
   return (
-    <div>
+    <div className={styles.divTeclado}>
       {TECLAS.map(key => {
         const estaAtivo = letrasAtivadas.includes(key)
         const estaInativo = letrasInativas.includes(key)
